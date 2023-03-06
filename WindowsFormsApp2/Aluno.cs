@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsFormsApp1
+namespace WindowsFormsApp2
 {
-    public class ALUNO
+    public class Aluno
     {
         private object txtMedia;
 
@@ -21,7 +21,6 @@ namespace WindowsFormsApp1
         public void CalcularMedia()
         {
             Media = (P1 + P2 / 2);
-
         }
 
     }

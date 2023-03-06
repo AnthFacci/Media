@@ -39,7 +39,7 @@ namespace WindowsFormsApp2
 
         private void butCalc_Click(object sender, EventArgs e)
         {
-            aluno ALUNO = new aluno();
+            Aluno ALUNO = new Aluno();
 
             ALUNO.Nome = txtNome.Text;
             ALUNO.Ra = txtRA.Text;
@@ -56,11 +56,5 @@ namespace WindowsFormsApp2
         }
     }
 
-    internal class aluno
-    {
-        public string Nome { get; internal set; }
-        public string Ra { get; internal set; }
-        public double P1 { get; internal set; }
-        public double P2 { get; internal set; }
-    }
+  
 }
